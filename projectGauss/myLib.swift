@@ -8,7 +8,63 @@
 
 import Foundation
 
+//extensions
 
+extension Character {
+
+  var toInt: Int? {
+    return Int(String(self))
+  }
+  
+}
+
+// stolen from http://stackoverflow.com/questions/24092884/get-nth-character-of-a-string-in-swift-programming-language
+extension String {
+  
+  subscript (i: Int) -> Character {
+    return self[self.startIndex.advancedBy(i)]
+  }
+  
+  subscript (i: Int) -> String {
+    return String(self[i] as Character)
+  }
+  
+  subscript (r: Range<Int>) -> String {
+    return substringWithRange(Range(start: startIndex.advancedBy(r.startIndex), end: startIndex.advancedBy(r.endIndex)))
+  }
+}
+
+// to do: write a Array extension (with some kind of arithmetic protocol) to calculat sum, mean...
+
+// structs
+struct Matrix {
+  let rows: Int, columns: Int
+  var grid: [Int]
+  init (rows:Int, columns:Int, grid:[Int]) {
+    self.rows = rows
+    self.columns = columns
+    self.grid = grid
+    print("Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
+    assert(true, "Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
+    assert(self.grid.count != self.rows*self.columns, "Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
+  }
+  
+  func indexIsValid(row:Int, column:Int) -> Bool {
+    return row>0 && column>0 && row<rows && column<columns
+  }
+  subscript (row:Int, column:Int) -> Int {
+    get {
+      assert(indexIsValid(row, column: column))
+      return grid[row*columns + column]
+    }
+    set {
+      assert(indexIsValid(row, column: column))
+      grid[row*columns + column] = newValue
+    }
+  }
+}
+
+// functions
 func isPrime(primeToTest:Int, primesArray: [Int] = []) -> Bool {
   if (primeToTest <= 1) {return false}
   else if (primeToTest <= 3) {return true}
