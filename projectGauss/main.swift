@@ -17,23 +17,13 @@ let start = NSDate()
 //print(proj6()) // 25164150
 //print(proj7()) // 104743
 //print(proj8()) // 23514624000
-//print(proj9()) // 31875000 (kind of cheated)
+//print(proj9()) // 31875000 
 //print(proj10()) // 142913828922 (could need Array extension protocol, see myLib)
-let mal:Int? = nil
-assert(mal != nil, "ALARM!")
-
-print(proj11())
-
-
+//print(proj11()) // 70600674
+//print(proj12()) // 76576500
+//print(proj13()) // 5537376230
 
 let stop = NSDate()
 
 let timeInterval: Double = stop.timeIntervalSinceDate(start)
 print("Time for all projects: \(timeInterval) s")
-
-
-
-
-
-
-

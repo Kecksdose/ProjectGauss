@@ -42,7 +42,7 @@ func proj8(printSteps:Bool = false, digitsToMultiply:Int = 13) -> Int {
   for digit in 0...(completeNumberAsString.characters.count-digitsToMultiply) {
     var tempFactor: Int = 1
     for cnt in digit...(digit+digitsToMultiply-1) {
-      let currentDigit = completeNumberAsString[cnt].toInt!
+      let currentDigit = completeNumberAsString[cnt]!.toInt!
       if (currentDigit == 0) {
         break
       }

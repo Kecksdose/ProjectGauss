@@ -21,12 +21,12 @@ extension Character {
 // stolen from http://stackoverflow.com/questions/24092884/get-nth-character-of-a-string-in-swift-programming-language
 extension String {
   
-  subscript (i: Int) -> Character {
+  subscript (i: Int) -> Character? {
     return self[self.startIndex.advancedBy(i)]
   }
   
   subscript (i: Int) -> String {
-    return String(self[i] as Character)
+    return String(self[i]! as Character)
   }
   
   subscript (r: Range<Int>) -> String {
@@ -36,7 +36,7 @@ extension String {
 
 // to do: write a Array extension (with some kind of arithmetic protocol) to calculat sum, mean...
 
-// structs
+// structs (stolen from Apple Swift Manual)
 struct Matrix {
   let rows: Int, columns: Int
   var grid: [Int]
@@ -44,27 +44,25 @@ struct Matrix {
     self.rows = rows
     self.columns = columns
     self.grid = grid
-    print("Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
-    assert(true, "Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
-    assert(self.grid.count != self.rows*self.columns, "Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
+    assert(self.grid.count == self.rows*self.columns, "Array size and number of rows/columns do not match! Array size: \(self.grid.count), rows: \(self.rows), columns: \(self.columns) -> Matrix: \(self.rows*self.columns)")
   }
   
   func indexIsValid(row:Int, column:Int) -> Bool {
-    return row>0 && column>0 && row<rows && column<columns
+    return row>=0 && column>=0 && row<rows && column<columns
   }
   subscript (row:Int, column:Int) -> Int {
     get {
-      assert(indexIsValid(row, column: column))
+      assert(indexIsValid(row, column: column), "Invalid matrix position: row: \(row), column: \(column)")
       return grid[row*columns + column]
     }
     set {
-      assert(indexIsValid(row, column: column))
+      assert(!indexIsValid(row, column: column))
       grid[row*columns + column] = newValue
     }
   }
 }
 
-// functions
+// functions (prime)
 func isPrime(primeToTest:Int, primesArray: [Int] = []) -> Bool {
   if (primeToTest <= 1) {return false}
   else if (primeToTest <= 3) {return true}
@@ -132,4 +130,27 @@ func primeFactorizer(var number:Int) -> [Int] {
   }
   primeFactors.append(number)
   return primeFactors
+}
+
+// functions (divisor, triangular numbers)
+func getTheNthTriangularNumber (N: Int) -> Int {
+  var currentSum:Int = 0
+  for number in 1...N {
+    currentSum += number
+  }
+  return currentSum
+}
+
+func getListOfDivisors (numberToProve: Int) -> [Int] {
+  var divisors: [Int] = []
+  for cnt in 1...Int(sqrt(Double(numberToProve)))+1 {
+    if(numberToProve%cnt == 0) {
+      divisors.append(cnt)
+      divisors.append(numberToProve/cnt)
+    }
+  }
+  if (numberToProve > 1) {
+    divisors.append(numberToProve)
+  }
+  return divisors
 }

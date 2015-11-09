@@ -20,6 +20,8 @@
 		27FB1EE61BE158C100EE4844 /* proj9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE51BE158C100EE4844 /* proj9.swift */; settings = {ASSET_TAGS = (); }; };
 		27FB1EE81BE26CE800EE4844 /* proj10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE71BE26CE800EE4844 /* proj10.swift */; settings = {ASSET_TAGS = (); }; };
 		27FB1EEA1BE2758A00EE4844 /* proj11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE91BE2758A00EE4844 /* proj11.swift */; settings = {ASSET_TAGS = (); }; };
+		27FB1EEC1BE7B38600EE4844 /* proj12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EEB1BE7B38600EE4844 /* proj12.swift */; settings = {ASSET_TAGS = (); }; };
+		27FB1EEE1BE7C04100EE4844 /* proj13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EED1BE7C04100EE4844 /* proj13.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,8 @@
 		27FB1EE51BE158C100EE4844 /* proj9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj9.swift; sourceTree = "<group>"; };
 		27FB1EE71BE26CE800EE4844 /* proj10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj10.swift; sourceTree = "<group>"; };
 		27FB1EE91BE2758A00EE4844 /* proj11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj11.swift; sourceTree = "<group>"; };
+		27FB1EEB1BE7B38600EE4844 /* proj12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj12.swift; sourceTree = "<group>"; };
+		27FB1EED1BE7C04100EE4844 /* proj13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				27FB1EE51BE158C100EE4844 /* proj9.swift */,
 				27FB1EE71BE26CE800EE4844 /* proj10.swift */,
 				27FB1EE91BE2758A00EE4844 /* proj11.swift */,
+				27FB1EEB1BE7B38600EE4844 /* proj12.swift */,
+				27FB1EED1BE7C04100EE4844 /* proj13.swift */,
 			);
 			path = projectGauss;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FB1EE61BE158C100EE4844 /* proj9.swift in Sources */,
+				27FB1EEC1BE7B38600EE4844 /* proj12.swift in Sources */,
 				279DCAA919420441008273C4 /* myLib.swift in Sources */,
 				279DCAA219420425008273C4 /* main.swift in Sources */,
 				27FB1EEA1BE2758A00EE4844 /* proj11.swift in Sources */,
@@ -164,6 +171,7 @@
 				27FB1EE21BD987BD00EE4844 /* proj7.swift in Sources */,
 				27FB1EDA1BD965B400EE4844 /* proj3.swift in Sources */,
 				27FB1EDE1BD965DF00EE4844 /* proj5.swift in Sources */,
+				27FB1EEE1BE7C04100EE4844 /* proj13.swift in Sources */,
 				27FB1ED61BD9656C00EE4844 /* proj1.swift in Sources */,
 				27FB1ED81BD9658E00EE4844 /* proj2.swift in Sources */,
 				27FB1EE41BE1494700EE4844 /* proj8.swift in Sources */,
