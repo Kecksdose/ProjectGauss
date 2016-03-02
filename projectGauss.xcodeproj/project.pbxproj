@@ -9,19 +9,22 @@
 /* Begin PBXBuildFile section */
 		279DCAA219420425008273C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DCAA119420425008273C4 /* main.swift */; };
 		279DCAA919420441008273C4 /* myLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DCAA819420441008273C4 /* myLib.swift */; };
-		27FB1ED61BD9656C00EE4844 /* proj1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED51BD9656C00EE4844 /* proj1.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1ED81BD9658E00EE4844 /* proj2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED71BD9658E00EE4844 /* proj2.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EDA1BD965B400EE4844 /* proj3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED91BD965B400EE4844 /* proj3.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EDC1BD965BA00EE4844 /* proj4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDB1BD965BA00EE4844 /* proj4.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EDE1BD965DF00EE4844 /* proj5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDD1BD965DF00EE4844 /* proj5.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EE01BD9860200EE4844 /* proj6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDF1BD9860200EE4844 /* proj6.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EE21BD987BD00EE4844 /* proj7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE11BD987BD00EE4844 /* proj7.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EE41BE1494700EE4844 /* proj8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE31BE1494700EE4844 /* proj8.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EE61BE158C100EE4844 /* proj9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE51BE158C100EE4844 /* proj9.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EE81BE26CE800EE4844 /* proj10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE71BE26CE800EE4844 /* proj10.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EEA1BE2758A00EE4844 /* proj11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE91BE2758A00EE4844 /* proj11.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EEC1BE7B38600EE4844 /* proj12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EEB1BE7B38600EE4844 /* proj12.swift */; settings = {ASSET_TAGS = (); }; };
-		27FB1EEE1BE7C04100EE4844 /* proj13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EED1BE7C04100EE4844 /* proj13.swift */; settings = {ASSET_TAGS = (); }; };
+		27FB1ED61BD9656C00EE4844 /* proj1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED51BD9656C00EE4844 /* proj1.swift */; };
+		27FB1ED81BD9658E00EE4844 /* proj2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED71BD9658E00EE4844 /* proj2.swift */; };
+		27FB1EDA1BD965B400EE4844 /* proj3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1ED91BD965B400EE4844 /* proj3.swift */; };
+		27FB1EDC1BD965BA00EE4844 /* proj4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDB1BD965BA00EE4844 /* proj4.swift */; };
+		27FB1EDE1BD965DF00EE4844 /* proj5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDD1BD965DF00EE4844 /* proj5.swift */; };
+		27FB1EE01BD9860200EE4844 /* proj6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EDF1BD9860200EE4844 /* proj6.swift */; };
+		27FB1EE21BD987BD00EE4844 /* proj7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE11BD987BD00EE4844 /* proj7.swift */; };
+		27FB1EE41BE1494700EE4844 /* proj8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE31BE1494700EE4844 /* proj8.swift */; };
+		27FB1EE61BE158C100EE4844 /* proj9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE51BE158C100EE4844 /* proj9.swift */; };
+		27FB1EE81BE26CE800EE4844 /* proj10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE71BE26CE800EE4844 /* proj10.swift */; };
+		27FB1EEA1BE2758A00EE4844 /* proj11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EE91BE2758A00EE4844 /* proj11.swift */; };
+		27FB1EEC1BE7B38600EE4844 /* proj12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EEB1BE7B38600EE4844 /* proj12.swift */; };
+		27FB1EEE1BE7C04100EE4844 /* proj13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB1EED1BE7C04100EE4844 /* proj13.swift */; };
+		3E9C24D81C84AF6300C530CF /* proj14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C24D71C84AF6300C530CF /* proj14.swift */; };
+		3E9C24DA1C84B91200C530CF /* proj15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C24D91C84B91200C530CF /* proj15.swift */; };
+		3E9C24DC1C85C69E00C530CF /* proj4_alternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C24DB1C85C69E00C530CF /* proj4_alternatives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,9 @@
 		27FB1EE91BE2758A00EE4844 /* proj11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj11.swift; sourceTree = "<group>"; };
 		27FB1EEB1BE7B38600EE4844 /* proj12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj12.swift; sourceTree = "<group>"; };
 		27FB1EED1BE7C04100EE4844 /* proj13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj13.swift; sourceTree = "<group>"; };
+		3E9C24D71C84AF6300C530CF /* proj14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj14.swift; sourceTree = "<group>"; };
+		3E9C24D91C84B91200C530CF /* proj15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj15.swift; sourceTree = "<group>"; };
+		3E9C24DB1C85C69E00C530CF /* proj4_alternatives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proj4_alternatives.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 				27FB1ED71BD9658E00EE4844 /* proj2.swift */,
 				27FB1ED91BD965B400EE4844 /* proj3.swift */,
 				27FB1EDB1BD965BA00EE4844 /* proj4.swift */,
+				3E9C24DB1C85C69E00C530CF /* proj4_alternatives.swift */,
 				27FB1EDD1BD965DF00EE4844 /* proj5.swift */,
 				27FB1EDF1BD9860200EE4844 /* proj6.swift */,
 				27FB1EE11BD987BD00EE4844 /* proj7.swift */,
@@ -100,6 +107,8 @@
 				27FB1EE91BE2758A00EE4844 /* proj11.swift */,
 				27FB1EEB1BE7B38600EE4844 /* proj12.swift */,
 				27FB1EED1BE7C04100EE4844 /* proj13.swift */,
+				3E9C24D71C84AF6300C530CF /* proj14.swift */,
+				3E9C24D91C84B91200C530CF /* proj15.swift */,
 			);
 			path = projectGauss;
 			sourceTree = "<group>";
@@ -132,7 +141,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Timon Schmelzer";
 				TargetAttributes = {
 					279DCA9D19420425008273C4 = {
@@ -168,11 +177,14 @@
 				279DCAA219420425008273C4 /* main.swift in Sources */,
 				27FB1EEA1BE2758A00EE4844 /* proj11.swift in Sources */,
 				27FB1EE81BE26CE800EE4844 /* proj10.swift in Sources */,
+				3E9C24DA1C84B91200C530CF /* proj15.swift in Sources */,
 				27FB1EE21BD987BD00EE4844 /* proj7.swift in Sources */,
+				3E9C24D81C84AF6300C530CF /* proj14.swift in Sources */,
 				27FB1EDA1BD965B400EE4844 /* proj3.swift in Sources */,
 				27FB1EDE1BD965DF00EE4844 /* proj5.swift in Sources */,
 				27FB1EEE1BE7C04100EE4844 /* proj13.swift in Sources */,
 				27FB1ED61BD9656C00EE4844 /* proj1.swift in Sources */,
+				3E9C24DC1C85C69E00C530CF /* proj4_alternatives.swift in Sources */,
 				27FB1ED81BD9658E00EE4844 /* proj2.swift in Sources */,
 				27FB1EE41BE1494700EE4844 /* proj8.swift in Sources */,
 				27FB1EDC1BD965BA00EE4844 /* proj4.swift in Sources */,
@@ -202,6 +214,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -262,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -270,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};

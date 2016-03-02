@@ -39,3 +39,4 @@ func proj4(printSteps:Bool = false, lowerLimit:Int = 100, upperLimit:Int = 999) 
   if (printSteps) {print("The largest Palindrom found was \(palindromNumber). (\(i_value) x \(j_value))")}
   return palindromNumber
 }
+
