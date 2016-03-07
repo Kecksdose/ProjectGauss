@@ -10,7 +10,7 @@ import Foundation
 
 func proj5(printSteps:Bool = false, maxProduct:Int = 20) -> Int {
   let start:Int = maxProduct
-  var my_number = 230000000
+  var my_number = 20
   var nums:[Int] = []
   for i in 2...maxProduct{
     nums.append(i)

@@ -16,29 +16,33 @@ func executionTimeInterval(block: () -> ()) -> CFTimeInterval {
     return end-start
 }
 
+let start = NSDate()
 
-//print(proj1()) // 233168
-//print(proj2()) // 4613732
-//print(proj3()) // 6857
-//print(proj4()) // 906609
-//print(proj5()) // 232792560, cheated
-//print(proj6()) // 25164150
-//print(proj7()) // 104743
-//print(proj8()) // 23514624000
-//print(proj9()) // 31875000
-//print(proj10()) // 142913828922 (could need Array extension protocol, see myLib)
-//print(proj11()) // 70600674
-//print(proj12()) // 76576500
-//print(proj13()) // 5537376230
-//print(proj14()) // 837799 in 3.59s
-//print(proj15(false, root: 2, exponent: 50))
-//print(executionTimeInterval(max_palindrom(100, high: 1000, plaindrom_finder: is_palindrom)))
+//print(proj1()) // 233168 in 0.4ms
+//print(proj2()) // 4613732 in 0.4ms
+//print(proj3()) // 6857 in 0.4ms
+//print(proj4()) // 906609 in 1.97s (see time_test_proj4())
+//print(proj5()) // 232792560 in 2.2s
+//print(proj6()) // 25164150 in 0.4ms
+//print(proj7()) // 104743 in 10ms
+//print(proj8()) // 23514624000 in 0.95s
+//print(proj9()) // 31875000 in 0.14s
+//print(proj10()) // 142913828922 in 0.42s
+//print(proj11()) // 70600674 in 0.4ms
+//print(proj12()) // 76576500 in 0.56s
+//print(proj13()) // 5537376230 in 0.18s
+//print(proj14()) // 837799 in 0.42s
+//print(proj15())
+//print(proj16()) // 1366 in 2ms
+//print(proj17(false)) // 21124 in 8ms
+print(proj18())
+
 
 // for performance tests
-time_test_proj4()
+//time_test_proj4()
 
-//let stop = NSDate()
+let stop = NSDate()
 
-//let timeInterval: Double = stop.timeIntervalSinceDate(start)
-//print("Time for all projects: \(timeInterval) s")
+let timeInterval: Double = stop.timeIntervalSinceDate(start)
+print("Time for all projects: \(timeInterval) s")
 
