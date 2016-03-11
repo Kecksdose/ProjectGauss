@@ -32,10 +32,10 @@ let start = NSDate()
 //print(proj12()) // 76576500 in 0.56s
 //print(proj13()) // 5537376230 in 0.18s
 //print(proj14()) // 837799 in 0.42s
-//print(proj15())
+//print(proj15()) // 137846528820 in 0.36ms (thanks to Double precision)
 //print(proj16()) // 1366 in 2ms
 //print(proj17(false)) // 21124 in 8ms
-print(proj18())
+//print(proj18())
 
 
 // for performance tests
